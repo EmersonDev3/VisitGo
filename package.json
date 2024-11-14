@@ -10,10 +10,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/native": "^7.0.2",
+    "@react-navigation/stack": "^7.0.2",
+    "axios": "^1.7.7",
+    "descubrasuacidade": "file:",
     "expo": "~52.0.6",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.1"
+    "react-native": "0.76.1",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-screens": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
