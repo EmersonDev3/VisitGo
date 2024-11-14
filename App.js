@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -13,7 +12,10 @@ export default function App() {
         <Stack.Screen
           name="TouristSpots"
           component={TouristSpotsScreen}
-          options={{ title: 'Descubra Sua Cidade' }}
+          options={{
+            title: 'Descubra Sua Cidade',
+            headerShown: false,  
+          }}
         />
       </Stack.Navigator>
     </NavigationContainer>
